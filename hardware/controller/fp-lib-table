@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MyModules")(type "KiCad")(uri "${KIPRJMOD}/MyModules.pretty")(options "")(descr "Project custom footprints"))
+  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/../third_party/kicad-lib-arduino/Arduino.pretty")(options "")(descr "Vendored g200kg Arduino library"))
+)
