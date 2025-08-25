@@ -2089,22 +2089,10 @@
 		(uuid "01e52757-3687-4ba6-819b-dc807aaf9fb5")
 	)
 	(junction
-		(at 125.73 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07e8a0a0-83cd-4513-86b3-8d8fac612161")
-	)
-	(junction
 		(at 63.5 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11cda383-bbe9-4666-9bd2-965c1799d366")
-	)
-	(junction
-		(at 120.65 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "120233f2-1601-4146-9242-7943b8686aa1")
 	)
 	(junction
 		(at 78.74 27.94)
@@ -2117,6 +2105,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15799c48-b0a7-4601-967d-03c8877ec4b4")
+	)
+	(junction
+		(at 120.65 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2570ccaf-bc1d-43dc-8e1f-32144e767749")
 	)
 	(junction
 		(at 71.12 30.48)
@@ -2159,6 +2153,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ed8cf1d-27dc-4e2d-93e2-0f9873ead3f1")
+	)
+	(junction
+		(at 125.73 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c328dee-e15e-41e6-9cab-e99faa719216")
 	)
 	(junction
 		(at 59.69 27.94)
@@ -2215,16 +2215,16 @@
 		(uuid "bf9aa233-3fd1-47fd-bb2f-9145c20625b2")
 	)
 	(junction
-		(at 140.97 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c44d0783-e35b-43c3-b178-4ab5f9f13335")
-	)
-	(junction
 		(at 95.25 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3ffbcfd-988c-4fe5-9d43-bd7e4b05c004")
+	)
+	(junction
+		(at 140.97 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6627021-63ca-40b9-a8e7-38016cd98bcc")
 	)
 	(wire
 		(pts
@@ -2378,6 +2378,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 35.56) (xy 128.27 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c487016-03bb-41bb-83c5-abab14a9b6a3")
+	)
+	(wire
+		(pts
 			(xy 113.03 58.42) (xy 113.03 68.58)
 		)
 		(stroke
@@ -2438,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 120.65 60.96)
+			(xy 105.41 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2528,16 +2538,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 144.78 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f61ff18-1798-4a46-9620-925aad778079")
-	)
-	(wire
-		(pts
 			(xy 67.31 38.1) (xy 67.31 50.8)
 		)
 		(stroke
@@ -2618,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 58.42) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14cd231-a26d-4d41-a715-0166c5b2fa2e")
+	)
+	(wire
+		(pts
 			(xy 82.55 27.94) (xy 78.74 27.94)
 		)
 		(stroke
@@ -2628,7 +2638,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 110.49 38.1)
+			(xy 140.97 68.58) (xy 144.78 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81f0ffb-7951-446a-bbee-2b59df92d2bc")
+	)
+	(wire
+		(pts
+			(xy 110.49 38.1) (xy 128.27 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3376,7 +3396,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 149.86 68.58 0)
+		(at 149.86 71.12 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3384,7 +3405,7 @@
 		(dnp no)
 		(uuid "4170b3d8-38a8-48ee-875a-6af6f2239e56")
 		(property "Reference" "J3"
-			(at 152.4 68.5799 0)
+			(at 152.4 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3414,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 152.4 71.1199 0)
+			(at 152.4 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 149.86 68.58 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 68.58 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3441,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 68.58 0)
+			(at 149.86 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3755,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 125.73 58.42 0)
+		(at 128.27 60.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3743,7 +3765,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a05016d-bffa-4e55-a30e-bf93954f8b2e")
 		(property "Reference" "J4"
-			(at 128.27 58.4199 0)
+			(at 130.81 60.9601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3774,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 128.27 60.9599 0)
+			(at 130.81 58.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +3783,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 125.73 58.42 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 58.42 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3801,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 125.73 58.42 0)
+			(at 128.27 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3826,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 130.81 35.56 0)
+		(at 133.35 38.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3813,7 +3836,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d97bceb-b869-4a3a-9b50-198e76bd2ecc")
 		(property "Reference" "J6"
-			(at 133.35 35.5599 0)
+			(at 135.89 38.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3845,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 133.35 38.0999 0)
+			(at 135.89 35.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3854,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 130.81 35.56 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 35.56 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3872,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 130.81 35.56 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
