@@ -1,0 +1,16 @@
+# OS metadata
+desktop.ini
+Thumbs.db
+.DS_Store
+# KiCad local state, caches and automatic backups
+*.kicad_prl
+fp-info-cache
+*-backups/
+_autosave-*
+~*.lck
+*.bak
+# Local firmware build products
+build/
+*.elf
+*.hex
+*.uf2
